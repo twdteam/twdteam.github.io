@@ -1,0 +1,67 @@
+body {
+  background-color:#484848 ;
+}
+/* #9B3133  #C1A580 */
+.nav {
+  position:absolute; 
+  width:100%;
+  top:0;
+  left:0;
+
+}
+.btn {
+
+
+  text-decoration: none;
+  color:white;
+  font-size:35px;
+  font-family: 'Passion One';
+  display:inline-block;
+  text-shadow: 0px 2px 5px #3c3c3c;
+  float:left;
+  width: calc(100% / 5 - 1px);
+  text-align: center;
+  line-height: 80px;
+  transition: all .25s;
+
+}
+.btn:hover {
+
+  box-shadow: inset 0px -5px white; 
+  background-color:#505050;
+  color:#B44040;
+
+}
+.btn:active {
+  box-shadow: inset 0px 0px #993232; 
+}
+.twd {
+
+  color:#d9d9d9;
+  font-family:'Passion One';
+  font-size:10vw;
+  position:relative;
+  top:150px;
+  text-shadow: 0px 2px 5px #3c3c3c;
+  transition: all .25s ease-in-out;
+}
+
+
+
+.twd:hover {
+  color:#b44040;
+}
+
+.banner {
+  z-index: -1;
+  position:absolute;
+  left:0;
+  bottom:0;
+  top:0;
+  background-image: url('http://i.imgur.com/Oubp3PS.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  width:100%;
+  height:20vw;
+}
