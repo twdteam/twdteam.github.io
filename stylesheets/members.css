@@ -1,0 +1,45 @@
+.banner {
+  z-index: -1;
+  position:absolute;
+  left:0;
+  bottom:0;
+  top:0;
+  background-image: url('http://i.imgur.com/Oubp3PS.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  width:100%;
+  height:20vw;
+}
+.memberstitle {
+  font-family:'Passion One';
+  color:#e6e5e5;
+  text-shadow: 0px 2px 5px #3c3c3c;
+  font-size:5vw;
+  position:relative;
+  top:170px;
+}
+table {
+ 
+  width: 100%;
+  position:relative;
+  top:200px;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  font-family:'raleway';
+  font-size:25px;
+}
+
+tr{background-color: #585858;
+color:white;}
+
+th {
+  background-color: #993232;
+  color: white;
+}
+#leader {
+  background-color:#DBA022; 
+}
