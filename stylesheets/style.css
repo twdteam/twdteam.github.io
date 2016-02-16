@@ -34,7 +34,8 @@ position:relative;
 background-color:#1dcdd4;
 }
 .twitter:hover {
- color:#1dcdd4; 
+ color:#1dcdd4;
+  
 }
 
 .quizup {
@@ -49,4 +50,16 @@ background-color:#1dcdd4;
 }
 .quizup:hover {
   background-image: url('http://i.imgur.com/Zn8YNvG.png');
+}
+.logo {
+ width:30px; 
+  vertical-align: middle;
+  position:fixed;
+  right:0;
+  bottom:0;
+  opacity:.5;
+  transition: all .25s ease-in-out;
+}
+.logo:hover {
+ opacity:1; 
 }
