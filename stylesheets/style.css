@@ -51,6 +51,13 @@ background-color:#1dcdd4;
 .quizup:hover {
   background-image: url('http://i.imgur.com/Zn8YNvG.png');
 }
+.subtitle {
+ position:relative;
+  top: 15vw;
+  font-family:'Passion One';
+  color:white;
+  font-size:3vw;
+}
 .logo {
  width:30px; 
   vertical-align: middle;
