@@ -1,7 +1,4 @@
 
-
-
-
 .fa {
  color:white;
   vertical-align: middle;
@@ -17,10 +14,10 @@
 position:relative;
   display:inline-block;
   padding:50px;
-  background-color:#b14545;
+  opacity: 0;
   margin-left:-4px;
   text-decoration:none;
-  opacity:0;
+  
   transition: all .25s ease-in-out;
 }
 .soc:hover {
@@ -31,7 +28,7 @@ position:relative;
     background-color:white;
 }
 .soc:active {
- box-shadow:0px 0px white; 
+  box-shadow:0px 0px rgba(0,0,0,0.43); 
 }
 .twitter {
 background-color:#1dcdd4;
@@ -39,9 +36,17 @@ background-color:#1dcdd4;
 .twitter:hover {
  color:#1dcdd4; 
 }
-.facebook {
- background-color:#0880f7 ;
+
+.quizup {
+  background-image: url('http://i.imgur.com/c0Z6ZtL.png') ;
+    background-size:70px;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  background-position:center;
+  background-color:#F55152;
+  height:48px;
+  width:50px
 }
-.facebook:hover {
-color:#0880f7;
+.quizup:hover {
+  background-image: url('http://i.imgur.com/Zn8YNvG.png');
 }
