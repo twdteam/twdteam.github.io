@@ -1,0 +1,17 @@
+
+.abouttext {
+ 
+ color:white;
+  font-family:'raleway';
+  font-size:35px;
+  padding:10px;
+  
+}
+.about {
+  position:relative;
+  top:9vw;
+  border-radius:5px;
+ width:75%;
+  background-color:rgba(255, 255, 255, 0.1);
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
