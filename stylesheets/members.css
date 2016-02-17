@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family:'PF Universal';
+  src: url('stylesheets/pfuniversal-regular-webfont (1).ttf');
+}
 .banner {
   z-index: -1;
   position:absolute;
@@ -30,7 +33,7 @@ table {
 th, td {
   text-align: center;
   padding: 8px;
-  font-family:'raleway';
+  font-family:'PF Universal';
   font-size:25px;
 }
 
