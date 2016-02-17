@@ -1,0 +1,62 @@
+
+.lang {
+  text-decoration:none;
+  color:white;
+  font-family:'Arial';
+  background-color:#318cdf;
+  padding: 5px;
+  box-shadow: 0px 3px #185394;
+  position:absolute;
+  display:inline-block;
+  width:80px;
+  right:0;
+  text-align: center;
+  transition: all .25s ease-in-out;
+}
+.lang:hover {
+  width:100px;
+  box-shadow: 0px 0px #185394;
+  background-color:#2576bf;
+
+}
+.banner {
+  z-index: -1;
+  position:absolute;
+  left:0;
+  bottom:0;
+  top:0;
+  background-image: url('http://i.imgur.com/Oubp3PS.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:center;
+  width:100%;
+  height:20vw;
+}
+.rules {
+ text-align: center;
+  color:white;
+  font-size:30px;
+  font-family:'raleway';
+  padding:15px;
+}
+.wrap {
+  text-align: center;
+  position:relative;
+  top:11vw;
+  border-radius:5px;
+  width:75%;
+  background-color:rgba(255, 255, 255, 0.1);
+  box-shadow:0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.logo {
+  width:30px; 
+  vertical-align: middle;
+  position:fixed;
+  right:0;
+  bottom:0;
+  opacity:.5;
+  transition: all .25s ease-in-out;
+}
+.logo:hover {
+  opacity:1; 
+}
