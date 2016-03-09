@@ -19,7 +19,7 @@ body {
   display:inline-block;
   text-shadow: 0px 2px 5px #3c3c3c;
   float:left;
-  width: calc(100% / 5 - 1px);
+  width: calc(100% / 4 - 1px);
   text-align: center;
   line-height: 80px;
   transition: all .25s;
